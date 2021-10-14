@@ -64,12 +64,13 @@ a {
 }
 
 .btn {
-  padding: 30px 30px;
+  padding: 30px;
   color:white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  width:400px;
 }
 
 .btn:hover {
@@ -90,29 +91,29 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
-  }
-  .logo {
+}
+.logo {
   width: 225px;
   margin-top: 12px;
-  }
-  .header-left {
+}
+.header-left {
   float: left;
-  }
-  .header-right {
+}
+.header-right {
   float: right;
   margin-right: -25px;
-  }
-  .header-right a {
+}
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: black;
   display: block;
   float: left;
   transition: all 0.5s;
-  }
-  .header-right a:hover {
+}
+.header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  }
+}
   /* Harvian Utomo */
 *{
   margin:0;
@@ -136,6 +137,7 @@ header {
 }
 .person:hover{
   opacity: 1;
+  width:28%;
 }
 .person-photo img{
   width:50%;
