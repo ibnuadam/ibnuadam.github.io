@@ -3,6 +3,16 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+  header{
+    width:100%;
+  }
+  header .bi-list {
+    margin:20px;
+    display:block;
+  }
+  .header-right {
+    display:none;
+  }
 }
 
 /* Untuk Smartphone */
